@@ -22,26 +22,12 @@ namespace rifki115.Controllers
     private async Task<string> GetExternalResponse()
     {
         var client = new HttpClient();
-        HttpResponseMessage response = await client.GetAsync("http://139.59.248.207:5501/api/selly/hello");
+        HttpResponseMessage response = await client.GetAsync("http://139.59.248.207:5504/api/edi/hello");
         response.EnsureSuccessStatusCode();
         var result = await response.Content.ReadAsStringAsync();
         return result;
     }
-   //  public static async void DownloadPageAsync()
-      //  {
-        // ... Target page.
-       // string page = "http://139.59.248.207:5501/api/selly/hello";
-        // ... Use HttpClient.
-     //   using (HttpClient client = new HttpClient())
-        //using (HttpResponseMessage response = await client.GetAsync(page))
-        //using (HttpContent content = response.Content)
-        //{
-            // ... Read the string.
-          //string result = await content.ReadAsStringAsync();
-            // ... Display the result.   
-        //}
-    //}
-
+    
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
