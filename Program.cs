@@ -26,7 +26,7 @@ namespace rifki115
                 .UseStartup<Startup>()
                 .Build();
 
-            host.Run();
+            host.Run();  
+             }
         }
     }
-}
