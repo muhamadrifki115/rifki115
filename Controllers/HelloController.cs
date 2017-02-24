@@ -10,7 +10,7 @@ namespace hello.Controllers
     public class HelloController : Controller
     {
         httpclienttest client = new httpclienttest();
-        string address = "http://139.59.248.207:5504/api/edi/hello";
+        string address = "http://188.166.236.181:5504/api/edi/hello";
 
         // GET api/values
         [HttpGet]
