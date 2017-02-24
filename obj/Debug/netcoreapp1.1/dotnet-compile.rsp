@@ -1,5 +1,5 @@
---temp-output:C:\Users\pochil\rifki115\obj\Debug\netcoreapp1.1\
---out:C:\Users\pochil\rifki115\bin\Debug\netcoreapp1.1\rifki115.dll
+--temp-output:C:\Users\pochil\rifki115revisi\obj\Debug\netcoreapp1.1\
+--out:C:\Users\pochil\rifki115revisi\bin\Debug\netcoreapp1.1\rifki115revisi.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_1
@@ -8,7 +8,7 @@
 --suppress-warning:CS1705
 --optimize:False
 --emit-entry-point:True
---output-name:rifki115
+--output-name:rifki115revisi
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -171,7 +171,8 @@
 --reference:C:\Users\pochil\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\pochil\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\pochil\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\pochil\rifki115\obj\Debug\netcoreapp1.1\rifki115dotnet-compile.deps.json",rifki115.deps.json
-C:\Users\pochil\rifki115\Program.cs
-C:\Users\pochil\rifki115\Startup.cs
-C:\Users\pochil\rifki115\Controllers\HelloController.cs
+--resource:"C:\Users\pochil\rifki115revisi\obj\Debug\netcoreapp1.1\rifki115revisidotnet-compile.deps.json",rifki115revisi.deps.json
+C:\Users\pochil\rifki115revisi\Program.cs
+C:\Users\pochil\rifki115revisi\Startup.cs
+C:\Users\pochil\rifki115revisi\Controllers\HelloController.cs
+C:\Users\pochil\rifki115revisi\Models\httpclienttest.cs
