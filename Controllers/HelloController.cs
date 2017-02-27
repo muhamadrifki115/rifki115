@@ -10,14 +10,14 @@ namespace hello.Controllers
     public class HelloController : Controller
     {
         httpclienttest client = new httpclienttest();
-        string address = "http://188.166.236.181:5504/api/edi/hello";
+        string address = "api/selly/hello";
 
         // GET api/values
         [HttpGet]
         public async Task<IEnumerable<string>> Get()
         {
           var hello = await  client.GetHelloAsync(address); 
-          return new string[] { "Hello Rifki",hello};
+          return new string[] {"Hello Rifki",hello};
         }
 
         // GET api/values/5

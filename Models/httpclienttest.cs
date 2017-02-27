@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Headers;
@@ -7,14 +8,12 @@ namespace httpclient
 {
     public class httpclienttest
     {
-       
-
         public async Task<string> GetHelloAsync(string folder)
         {
              HttpClient client = new HttpClient();
 
-            string Hello = "";
-            client.BaseAddress = new Uri("http://188.166.236.181:5504/");
+            string Hello = "Not Found";
+            client.BaseAddress = new Uri("http://188.166.236.181:5501/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
