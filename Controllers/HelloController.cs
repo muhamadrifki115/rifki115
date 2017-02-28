@@ -10,7 +10,7 @@ namespace hello.Controllers
     public class HelloController : Controller
     {
         httpclienttest client = new httpclienttest();
-        string address = "api/selly/hello";
+        string address = "api/edi/hello";
 
         // GET api/values
         [HttpGet]

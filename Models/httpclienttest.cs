@@ -13,7 +13,7 @@ namespace httpclient
              HttpClient client = new HttpClient();
 
             string Hello = "Not Found";
-            client.BaseAddress = new Uri("http://188.166.236.181:5501/");
+            client.BaseAddress = new Uri("http://helloedi.sloppy.zone/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
